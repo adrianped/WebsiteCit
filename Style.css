@@ -1,0 +1,75 @@
+/* CSS Document */
+body{
+	background-image: url(Images/Background.jpg)
+}
+#wrapper{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+/*HEADER------------------------------------------------------------*/
+header{
+	padding-left: 60px;
+	height: 50px;
+}
+header img{
+	float: left;
+}
+header ul{
+	float: right;
+	list-style: none;
+}
+header a{
+	color: white;
+	text-decoration: none;
+}
+header a:hover{
+	color: grey;
+}
+header ul li{
+	display: inline;
+	margin-left: 10px;
+}
+/*SECTION------------------------------------------------------------*/
+section{
+	float: left;
+	padding: 15px;
+	width: 616px;
+	height: auto;
+	background: grey;
+	margin-top: 50px;
+	border: 1px solid black;
+}
+.index-post{
+	height: 310px
+}
+.index-post img{
+	float: left;
+	border: 1px solid black;
+	padding: 3px;
+	margin-right: 10px;
+}
+.index-post a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	font-weight: 400;
+}
+/*ASIDE------------------------------------------------------------*/
+aside{
+	float: right;
+	width: 280px;
+	background: grey;
+	height: 930px;
+	padding: 15px;
+	border: 1px solid black;
+}
+/*FOOTER------------------------------------------------------------*/
+footer{
+	clear: both;
+	background: black;
+	height: 50px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
