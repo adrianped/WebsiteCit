@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Game shop</title>
+	</head>
+		<link rel="stylesheet" href="Payment.css" type="text/css">
+	<body>
+		<div id="wrapper">
+			<header><img src="Images/Header.jpg" alt="Federal Games">
+				<nav>
+					<ul>
+						<li><a href="Index.html">Home</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				
+			</header>
+			<section>
+			<script src="Script.js"></script>
+				<h1>Please enter your payment details and you will be redirected</h1>
+		<div class="w3-half">
+             <form action="/action_page.php" onsubmit="onSubmit(this);return false;">
+						<label for="game">Game</label>
+						<select id="game" name="game">
+							<option value="NOT VALID">Please select...</option>
+							<option value="Overwatch ($69.99)">Overwatch ($69.99)</option>
+							<option value="World Of Warcraft ($29.99)">World Of Warcraft ($29.99)</option>
+							<option value="Hearthstone ($40.99)">Hearthstone ($29.99)</option>
+							<option value="Bundle Pack ($79.99)">Bundle Pack ($79.99)</option>
+						</select><br>
+						
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your first name..."><br>
+
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..."><br>
+
+						<label for="padd">Postal Address</label>
+						<input type="text" id="padd" name="postaladdress" placeholder="Your postal address..."><br>
+						
+						<label for="citysub">Suburb/City</label>
+						<input type="text" id="citysub" name="cityorsuburb" placeholder="Your city/subrub..."><br>
+						
+						<label for="postcode">Postcode</label>
+						<input type="text" id="postcode" name="postcode" placeholder="Your postcode..."><br>
+						
+						<label for="state">State/Territory</label>
+						<select id="state" name="state">
+							<option value="NOT VALID">Please select...</option>
+							<option value="ACT">ACT</option>
+							<option value="NSW">NSW</option>
+							<option value="NT">NT</option>
+							<option value="QLD">QLD</option>
+							<option value="SA">SA</option>
+							<option value="TAS">TAS</option>
+							<option value="VIC">VIC</option>
+							<option value="WA">WA</option>
+						</select><br>
+						
+						<label for="cardnum">Credit Card Number</label>
+						<input type="text" id="cardnum" name="cardnum" placeholder="Your cradit card number..."><br>
+						
+						<label for="cardexp">Card Expiry</label>
+						<input type="text" id="cardexp" name="cardexp" placeholder="Your card expiry..."><br>
+						
+						<label for="ccv">CCV</label>
+						<input type="text" id="ccv" name="ccv" placeholder="Your CCV..."><br>
+					  
+						<input type="submit" value="Submit">
+					  </form>
+            </div>
+			</section>
+			<aside>
+				
+			</aside>
+			<footer>
+			<h1>Made By Adrian Pedrazzoli</h1>
+			</footer>
+		</div>
+	</body>
+</html>

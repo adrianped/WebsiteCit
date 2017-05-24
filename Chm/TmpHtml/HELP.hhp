@@ -1,0 +1,30 @@
+[OPTIONS]
+Language=0x0c09
+Default Font=Arial,8,0
+TITLE=Website
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Auto Index=No
+Default Window=Main
+Compiled file=HELP.chm
+Error Log file=HELP.log
+Contents file=HELP.hhc
+Index File=HELP.hhk
+Default Topic=about.html
+[FILES]
+about.html
+support.html
+order.html
+help.png
+nexttopic.png
+prevtopic.png
+[WINDOWS]
+Main=,"HELP.hhc","HELP.hhk","about.html","about.html",,,,,0x061520,200,0x00304E,[50,50,850,450],0x307e,,,,,,,,0
+[ALIAS]
+about=about.html
+support=support.html
+order=order.html
+[MAP]
+#include HELP.h

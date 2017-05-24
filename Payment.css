@@ -41,21 +41,36 @@ section{
 	margin-top: 50px;
 	border: 1px solid black;
 }
-.index-post{
-	height: 310px
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-.index-post img{
-	float: left;
-	border: 1px solid black;
-	padding: 3px;
-	margin-right: 10px;
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-.index-post a{
-	text-decoration: none;
-	color: black;
-	font-size: 25px;
-	font-weight: 400;
+
+input[type=submit]:hover {
+    background-color: #45a049;
 }
+
+input[type=text]:focus {
+    background-color: lightgrey;
+}	
+
 /*ASIDE------------------------------------------------------------*/
 aside{
 	float: right;
@@ -76,3 +91,4 @@ footer{
 footer h1{
 	color: white
 }
+
